@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block title %}Posts{% endblock title %}
+
+{% block content %}
+<h1>Weather in Jackson</h1>
+<p>{{ weather|safe }}</p>
+{% endblock %}
